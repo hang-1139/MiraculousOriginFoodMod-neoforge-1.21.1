@@ -41,8 +41,7 @@ public class MillRecipeCategory implements IRecipeCategory<MillRecipe> {
     // ===== 水槽 =====
     private static final int TANK_X = 154;
     private static final int TANK_Y = 7;
-    private static final int TANK_WIDTH = 8;
-    private static final int TANK_HEIGHT = 58;
+    private static final int TANK_HEIGHT = 57;
 
     // ===== 液体纹理（从 mill.png 截取） =====
     private static final ResourceLocation MILL_TEXTURE =
@@ -59,7 +58,7 @@ public class MillRecipeCategory implements IRecipeCategory<MillRecipe> {
             ModFluids.GLOW_BERRY_JUICE, new int[]{225, 66},
             ModFluids.BEETROOT_JUICE,   new int[]{247, 128}
     );
-    private static final int LIQUID_TEXTURE_WIDTH = 8;
+    private static final int LIQUID_TEXTURE_WIDTH = 7;
     private static final int LIQUID_TEXTURE_HEIGHT = 58;
 
     // ===== 图标 =====
@@ -97,24 +96,24 @@ public class MillRecipeCategory implements IRecipeCategory<MillRecipe> {
     @Override
     public void setRecipe(IRecipeLayoutBuilder builder, MillRecipe recipe, IFocusGroup focuses) {
         // 原料槽
-        builder.addSlot(RecipeIngredientRole.INPUT, 15, 30)
+        builder.addSlot(RecipeIngredientRole.INPUT, 39, 29)
                 .addIngredients(recipe.getIngredient());
 
         // 产物槽（最多两个）
         var outputs = recipe.getOutputs();
         if (!outputs.isEmpty()) {
-            builder.addSlot(RecipeIngredientRole.OUTPUT, 130, 20)
+            builder.addSlot(RecipeIngredientRole.OUTPUT, 121, 12)
                     .addItemStack(outputs.get(0));
         }
         if (outputs.size() > 1) {
-            builder.addSlot(RecipeIngredientRole.OUTPUT, 130, 50)
+            builder.addSlot(RecipeIngredientRole.OUTPUT, 121, 47)
                     .addItemStack(outputs.get(1));
         }
     }
 
     @Override
     public void draw(MillRecipe recipe, IRecipeSlotsView recipeSlotsView, GuiGraphics guiGraphics, double mouseX, double mouseY) {
-        guiGraphics.blit(TEXTURE, 0, 0, 0, 0, width, height);
+        guiGraphics.blit(TEXTURE, 0, 0, 0, 0, width, height, width, height);
 
         // 2. 水槽液体
         String liquid = recipe.getLiquidOutput();
@@ -126,7 +125,7 @@ public class MillRecipeCategory implements IRecipeCategory<MillRecipe> {
             String fluidKey = liquid.replace(':', '.');
             Component fluidName = Component.translatable("fluid." + fluidKey);
             String text = fluidName.getString() + " " + amount + " mB";
-            guiGraphics.drawString(Minecraft.getInstance().font, text, TANK_X - 10, TANK_Y - 10, 0x404040, false);
+            guiGraphics.drawString(Minecraft.getInstance().font, text, 56, 75, 0x404040, false);
         }
 
         // 3. 饱食度消耗（使用自定义贴图）

@@ -22,15 +22,15 @@ import java.util.Map;
 
 public class LiquidFillingRecipeCategory implements IRecipeCategory<LiquidFillingRecipe> {
 
-    // ===== 背景贴图（自己设计的 JEI 背景） =====
+    // ===== 背景贴图=====
     private static final ResourceLocation TEXTURE =
             ResourceLocation.fromNamespaceAndPath(MiraculousOriginFoodMod.MODID, "textures/gui/jei_liquid_filling.png");
 
-    // ===== 液体纹理来源（从 mill.png 截取） =====
+    // ===== 液体纹理来源=====
     private static final ResourceLocation MILL_TEXTURE =
             ResourceLocation.fromNamespaceAndPath(MiraculousOriginFoodMod.MODID, "textures/gui/mill.png");
 
-    // ===== 液体纹理映射（与 MillScreen 一致） =====
+    // ===== 液体纹理映射=====
     private static final Map<String, int[]> LIQUID_TEXTURES = Map.of(
             ModFluids.WATER,            new int[]{192, 4},
             ModFluids.COCOA_BUTTER,     new int[]{203, 4},
@@ -42,7 +42,7 @@ public class LiquidFillingRecipeCategory implements IRecipeCategory<LiquidFillin
             ModFluids.GLOW_BERRY_JUICE, new int[]{225, 66},
             ModFluids.BEETROOT_JUICE,   new int[]{247, 128}
     );
-    private static final int LIQUID_TEXTURE_WIDTH = 8;
+    private static final int LIQUID_TEXTURE_WIDTH = 7;
     private static final int LIQUID_TEXTURE_HEIGHT = 58;
 
     // ===== 界面尺寸 =====
@@ -52,8 +52,7 @@ public class LiquidFillingRecipeCategory implements IRecipeCategory<LiquidFillin
     // 水槽位置
     private static final int TANK_X = 85;
     private static final int TANK_Y = 9;
-    private static final int TANK_WIDTH = 8;
-    private static final int TANK_HEIGHT = 56;
+    private static final int TANK_HEIGHT = 57;
 
     private final IDrawable icon;
 
@@ -89,18 +88,18 @@ public class LiquidFillingRecipeCategory implements IRecipeCategory<LiquidFillin
     @Override
     public void setRecipe(IRecipeLayoutBuilder builder, LiquidFillingRecipe recipe, IFocusGroup focuses) {
         // 原料槽（容器）
-        builder.addSlot(RecipeIngredientRole.INPUT, 15, 50)
+        builder.addSlot(RecipeIngredientRole.INPUT, 62, 6)
                 .addIngredients(recipe.getContainer());
 
         // 产物槽（盛满的容器）
-        builder.addSlot(RecipeIngredientRole.OUTPUT, 115, 50)
+        builder.addSlot(RecipeIngredientRole.OUTPUT, 62, 53)
                 .addItemStack(recipe.getResult());
     }
 
     @Override
     public void draw(LiquidFillingRecipe recipe, IRecipeSlotsView recipeSlotsView, GuiGraphics guiGraphics, double mouseX, double mouseY) {
         // 1. 绘制背景
-        guiGraphics.blit(TEXTURE, 0, 0, 0, 0, width, height);
+        guiGraphics.blit(TEXTURE, 0, 0, 0, 0, width, height, width, height);
 
         // 2. 绘制水槽中的液体柱（从 mill.png 截取）
         String fluidType = recipe.getFluid();
@@ -113,7 +112,7 @@ public class LiquidFillingRecipeCategory implements IRecipeCategory<LiquidFillin
         String fluidKey = fluidType.replace(':', '.');
         Component fluidName = Component.translatable("fluid." + fluidKey);
         String text = fluidName.getString() + " " + amount + " mB";
-        guiGraphics.drawString(Minecraft.getInstance().font, text, TANK_X - 10, TANK_Y - 10, 0x404040, false);
+        guiGraphics.drawString(Minecraft.getInstance().font, text, 3, 69, 0x404040, false);
     }
 
     // ===== 水槽渲染（使用 MILL_TEXTURE） =====
