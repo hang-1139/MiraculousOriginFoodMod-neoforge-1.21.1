@@ -1,0 +1,26 @@
+{
+  "parent": "miraculousori:end_root",
+  "criteria": {
+    "float_melon": {
+      "trigger": "miraculousori:float_melon"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.miraculousori.it_flew_away.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "miraculousori:plant/floating_melon"
+    },
+    "title": {
+      "translate": "advancements.miraculousori.it_flew_away.title"
+    }
+  },
+  "requirements": [
+    [
+      "float_melon"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

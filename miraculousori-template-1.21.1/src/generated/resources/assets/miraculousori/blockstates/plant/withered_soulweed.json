@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "miraculousori:plant/withered_soulweed_bottom"
+    },
+    "half=upper": {
+      "model": "miraculousori:plant/withered_soulweed_top"
+    }
+  }
+}

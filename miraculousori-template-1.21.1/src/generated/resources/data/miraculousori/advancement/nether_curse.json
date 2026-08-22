@@ -1,0 +1,33 @@
+{
+  "parent": "miraculousori:nether_root",
+  "criteria": {
+    "has_curse_punishment": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:god/hunger_curse_punishment"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.miraculousori.nether_curse.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "miraculousori:god/hunger_curse_punishment"
+    },
+    "title": {
+      "translate": "advancements.miraculousori.nether_curse.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_curse_punishment"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

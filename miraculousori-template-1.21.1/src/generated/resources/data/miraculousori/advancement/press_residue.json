@@ -1,0 +1,26 @@
+{
+  "parent": "miraculousori:food_question",
+  "criteria": {
+    "press_residue": {
+      "trigger": "miraculousori:press_residue"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.miraculousori.press_residue.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "miraculousori:misc/mill_block"
+    },
+    "title": {
+      "translate": "advancements.miraculousori.press_residue.title"
+    }
+  },
+  "requirements": [
+    [
+      "press_residue"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 300,
+  "experience": 0.35,
+  "group": "cooked_potato_patty",
+  "ingredient": {
+    "item": "miraculousori:bread/raw_potato_patty"
+  },
+  "result": {
+    "count": 1,
+    "id": "miraculousori:bread/cooked_potato_patty"
+  }
+}

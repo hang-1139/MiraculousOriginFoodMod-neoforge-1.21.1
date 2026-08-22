@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "has_clay_ball": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:clay_ball"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "miraculousori:textures/gui/advancements/backgrounds/mill_top.png",
+    "description": {
+      "translate": "advancements.miraculousori.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "miraculousori:clay/wet_clay_ball"
+    },
+    "title": {
+      "translate": "advancements.miraculousori.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_clay_ball"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

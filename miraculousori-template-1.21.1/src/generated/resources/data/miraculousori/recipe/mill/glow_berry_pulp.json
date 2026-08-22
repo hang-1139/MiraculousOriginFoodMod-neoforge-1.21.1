@@ -1,0 +1,19 @@
+{
+  "type": "miraculousori:mill",
+  "experience": 0.2,
+  "food_cost": 1,
+  "grinding_time": 40,
+  "group": "glow_berry_pulp",
+  "ingredient": {
+    "item": "minecraft:glow_berries"
+  },
+  "ingredient_count": 1,
+  "liquid_amount": 50,
+  "liquid_output": "miraculousori:glow_berry_juice",
+  "outputs": [
+    {
+      "count": 1,
+      "id": "miraculousori:misc/glow_berry_pulp"
+    }
+  ]
+}

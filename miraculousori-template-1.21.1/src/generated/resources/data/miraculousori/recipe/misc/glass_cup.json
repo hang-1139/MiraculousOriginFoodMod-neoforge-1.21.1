@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "g": {
+      "item": "minecraft:glass"
+    }
+  },
+  "pattern": [
+    "g g",
+    "g g",
+    " g "
+  ],
+  "result": {
+    "count": 5,
+    "id": "miraculousori:misc/glass_cup"
+  }
+}

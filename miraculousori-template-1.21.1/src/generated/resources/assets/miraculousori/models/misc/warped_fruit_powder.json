@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "miraculousori:item/misc/warped_fruit_powder"
+  }
+}

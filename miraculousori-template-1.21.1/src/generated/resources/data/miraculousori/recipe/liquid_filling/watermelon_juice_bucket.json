@@ -1,0 +1,12 @@
+{
+  "type": "miraculousori:liquid_filling",
+  "container": {
+    "item": "minecraft:bucket"
+  },
+  "fluid": "miraculousori:watermelon_juice",
+  "fluid_amount": 1000,
+  "result": {
+    "count": 1,
+    "id": "miraculousori:drink/watermelon_juice_bucket"
+  }
+}

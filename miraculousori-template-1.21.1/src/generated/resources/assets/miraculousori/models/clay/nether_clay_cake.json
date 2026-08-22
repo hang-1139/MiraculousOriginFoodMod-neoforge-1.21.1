@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "miraculousori:item/clay/nether_clay_cake"
+  }
+}

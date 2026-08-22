@@ -1,0 +1,19 @@
+{
+  "type": "miraculousori:mill",
+  "experience": 4.0,
+  "food_cost": 2,
+  "grinding_time": 200,
+  "group": "beetroot_pulp",
+  "ingredient": {
+    "item": "minecraft:beetroot"
+  },
+  "ingredient_count": 1,
+  "liquid_amount": 250,
+  "liquid_output": "miraculousori:beetroot_juice",
+  "outputs": [
+    {
+      "count": 1,
+      "id": "miraculousori:misc/beetroot_pulp"
+    }
+  ]
+}

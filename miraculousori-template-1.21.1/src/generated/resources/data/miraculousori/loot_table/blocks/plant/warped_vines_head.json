@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "miraculousori:plant/warped_vines_head",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "berries": "true"
+              }
+            }
+          ],
+          "name": "miraculousori:plant/warped_fruit"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "miraculousori:blocks/plant/warped_vines_head"
+}

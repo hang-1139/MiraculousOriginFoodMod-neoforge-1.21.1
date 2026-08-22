@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "miraculousori:plant/leaping_fruit_plant_top_facing_down"
+    },
+    "facing=east": {
+      "model": "miraculousori:plant/leaping_fruit_plant_top_facing_east"
+    },
+    "facing=north": {
+      "model": "miraculousori:plant/leaping_fruit_plant_top_facing_north"
+    },
+    "facing=south": {
+      "model": "miraculousori:plant/leaping_fruit_plant_top_facing_south"
+    },
+    "facing=up": {
+      "model": "miraculousori:plant/leaping_fruit_plant_top_facing_up"
+    },
+    "facing=west": {
+      "model": "miraculousori:plant/leaping_fruit_plant_top_facing_west"
+    }
+  }
+}

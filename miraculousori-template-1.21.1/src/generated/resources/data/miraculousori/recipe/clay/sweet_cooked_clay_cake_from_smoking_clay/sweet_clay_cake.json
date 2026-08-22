@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "group": "sweet_cooked_clay_cake",
+  "ingredient": {
+    "item": "miraculousori:clay/sweet_clay_cake"
+  },
+  "result": {
+    "count": 1,
+    "id": "miraculousori:clay/sweet_cooked_clay_cake"
+  }
+}

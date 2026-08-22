@@ -1,0 +1,33 @@
+{
+  "parent": "miraculousori:super_compression",
+  "criteria": {
+    "has_god_gaze": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:god/god_gaze"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.miraculousori.god_gaze.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "miraculousori:god/god_gaze"
+    },
+    "title": {
+      "translate": "advancements.miraculousori.god_gaze.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_god_gaze"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

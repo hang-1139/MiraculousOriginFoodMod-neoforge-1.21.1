@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "miraculousori:misc/cocoa_powder"
+    },
+    {
+      "item": "miraculousori:misc/cocoa_powder"
+    },
+    {
+      "item": "miraculousori:misc/water_mold"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "miraculousori:misc/dark_chocolate_paste_mold"
+  }
+}

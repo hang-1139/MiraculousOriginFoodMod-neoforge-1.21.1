@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "miraculousori:item/god/food_god_blessing_amulet"
+  }
+}

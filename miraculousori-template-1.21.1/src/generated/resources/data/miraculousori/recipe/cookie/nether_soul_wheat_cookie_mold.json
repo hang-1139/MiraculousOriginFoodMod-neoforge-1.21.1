@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "miraculousori:misc/nether_soul_wheat_dough"
+    },
+    {
+      "item": "miraculousori:cookie/cookie_mold"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "miraculousori:cookie/nether_soul_wheat_cookie_mold"
+  }
+}

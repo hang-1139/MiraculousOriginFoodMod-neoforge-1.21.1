@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "miraculousori:item/bread/chinese_sugar_free_bread"
+  }
+}

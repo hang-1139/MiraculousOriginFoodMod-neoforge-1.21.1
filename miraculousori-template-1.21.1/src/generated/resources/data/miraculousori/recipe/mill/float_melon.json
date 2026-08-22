@@ -1,0 +1,21 @@
+{
+  "type": "miraculousori:mill",
+  "experience": 1.0,
+  "food_cost": 1,
+  "grinding_time": 100,
+  "group": "float_melon",
+  "ingredient": {
+    "item": "miraculousori:plant/floating_melon"
+  },
+  "ingredient_count": 1,
+  "outputs": [
+    {
+      "count": 2,
+      "id": "miraculousori:misc/floating_melon_jam"
+    },
+    {
+      "count": 1,
+      "id": "miraculousori:plant/broken_floating_gourd"
+    }
+  ]
+}

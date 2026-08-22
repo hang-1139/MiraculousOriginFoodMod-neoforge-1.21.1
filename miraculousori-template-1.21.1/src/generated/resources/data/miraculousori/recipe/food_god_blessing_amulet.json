@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "miraculousori:god/god_gaze"
+  },
+  "base": {
+    "item": "miraculousori:misc/saturation_totem"
+  },
+  "result": {
+    "count": 1,
+    "id": "miraculousori:god/food_god_blessing_amulet"
+  },
+  "template": {
+    "item": "miraculousori:misc/divine_upgrade_template"
+  }
+}

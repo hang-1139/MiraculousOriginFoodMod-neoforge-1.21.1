@@ -1,0 +1,33 @@
+{
+  "parent": "miraculousori:god_gaze",
+  "criteria": {
+    "has_blessing": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:god/food_god_blessing_amulet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.miraculousori.blessing_amulet.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "miraculousori:god/food_god_blessing_amulet"
+    },
+    "title": {
+      "translate": "advancements.miraculousori.blessing_amulet.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_blessing"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

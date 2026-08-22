@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 300,
+  "experience": 0.35,
+  "group": "chinese_sugar_free_bread",
+  "ingredient": {
+    "item": "miraculousori:misc/wheat_dough"
+  },
+  "result": {
+    "count": 1,
+    "id": "miraculousori:bread/chinese_sugar_free_bread"
+  }
+}

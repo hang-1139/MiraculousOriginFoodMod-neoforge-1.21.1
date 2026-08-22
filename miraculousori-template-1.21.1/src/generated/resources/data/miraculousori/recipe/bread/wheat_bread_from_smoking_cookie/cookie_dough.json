@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "group": "wheat_bread",
+  "ingredient": {
+    "item": "miraculousori:cookie/cookie_dough"
+  },
+  "result": {
+    "count": 1,
+    "id": "miraculousori:bread/wheat_bread"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "miraculousori:liquid_filling",
+  "container": {
+    "item": "miraculousori:misc/glass_cup"
+  },
+  "fluid": "miraculousori:glow_berry_juice",
+  "fluid_amount": 500,
+  "result": {
+    "count": 1,
+    "id": "miraculousori:drink/glow_berry_juice_glass"
+  }
+}

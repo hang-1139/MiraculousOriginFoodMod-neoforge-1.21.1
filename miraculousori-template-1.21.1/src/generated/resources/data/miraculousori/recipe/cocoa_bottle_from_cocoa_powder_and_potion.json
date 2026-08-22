@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "miraculousori:misc/cocoa_powder"
+    },
+    {
+      "item": "miraculousori:misc/cocoa_powder"
+    },
+    {
+      "item": "minecraft:potion"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "miraculousori:drink/cocoa_bottle"
+  }
+}

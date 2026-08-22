@@ -1,0 +1,17 @@
+{
+  "type": "miraculousori:mill",
+  "experience": 4.0,
+  "food_cost": 2,
+  "grinding_time": 200,
+  "group": "nether_soul_wheat_flour",
+  "ingredient": {
+    "item": "miraculousori:plant/soul_wheat"
+  },
+  "ingredient_count": 1,
+  "outputs": [
+    {
+      "count": 4,
+      "id": "miraculousori:misc/nether_soul_wheat_flour"
+    }
+  ]
+}

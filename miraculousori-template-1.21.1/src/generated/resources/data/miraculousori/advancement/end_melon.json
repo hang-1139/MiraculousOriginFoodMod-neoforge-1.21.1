@@ -1,0 +1,33 @@
+{
+  "parent": "miraculousori:it_flew_away",
+  "criteria": {
+    "has_melon": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:plant/floating_melon"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.miraculousori.end_melon.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "miraculousori:plant/floating_melon"
+    },
+    "title": {
+      "translate": "advancements.miraculousori.end_melon.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_melon"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

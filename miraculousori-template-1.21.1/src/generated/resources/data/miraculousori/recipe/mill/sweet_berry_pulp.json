@@ -1,0 +1,19 @@
+{
+  "type": "miraculousori:mill",
+  "experience": 0.2,
+  "food_cost": 1,
+  "grinding_time": 40,
+  "group": "sweet_berry_pulp",
+  "ingredient": {
+    "item": "minecraft:sweet_berries"
+  },
+  "ingredient_count": 1,
+  "liquid_amount": 50,
+  "liquid_output": "miraculousori:sweet_berry_juice",
+  "outputs": [
+    {
+      "count": 1,
+      "id": "miraculousori:misc/sweet_berry_pulp"
+    }
+  ]
+}

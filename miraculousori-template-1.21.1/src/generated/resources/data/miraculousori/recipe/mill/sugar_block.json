@@ -1,0 +1,17 @@
+{
+  "type": "miraculousori:mill",
+  "experience": 0.0,
+  "food_cost": 2,
+  "grinding_time": 20,
+  "group": "sugar_block",
+  "ingredient": {
+    "item": "miraculousori:misc/sugar_block"
+  },
+  "ingredient_count": 1,
+  "outputs": [
+    {
+      "count": 8,
+      "id": "minecraft:sugar"
+    }
+  ]
+}

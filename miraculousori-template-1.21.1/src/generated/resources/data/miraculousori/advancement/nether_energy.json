@@ -1,0 +1,33 @@
+{
+  "parent": "miraculousori:nether_root",
+  "criteria": {
+    "has_nether_cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:clay/nether_clay_cake"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.miraculousori.nether_energy.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "miraculousori:clay/nether_clay_cake"
+    },
+    "title": {
+      "translate": "advancements.miraculousori.nether_energy.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_nether_cake"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

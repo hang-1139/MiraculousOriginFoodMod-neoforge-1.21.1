@@ -1,0 +1,33 @@
+{
+  "parent": "miraculousori:wheres_the_eggshell",
+  "criteria": {
+    "has_biscuit": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:cookie/compressed_wheat_biscuit"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.miraculousori.super_compression.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "miraculousori:cookie/compressed_wheat_biscuit"
+    },
+    "title": {
+      "translate": "advancements.miraculousori.super_compression.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_biscuit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

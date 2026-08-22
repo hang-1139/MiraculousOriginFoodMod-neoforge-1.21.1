@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bread/raw_baguette": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:bread/raw_baguette"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "miraculousori:bread/baguette_from_smoking_bread/raw_baguette"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bread/raw_baguette"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "miraculousori:bread/baguette_from_smoking_bread/raw_baguette"
+    ]
+  }
+}

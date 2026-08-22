@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "miraculousori:item/plant/nether_soul_wheat_seeds"
+  }
+}

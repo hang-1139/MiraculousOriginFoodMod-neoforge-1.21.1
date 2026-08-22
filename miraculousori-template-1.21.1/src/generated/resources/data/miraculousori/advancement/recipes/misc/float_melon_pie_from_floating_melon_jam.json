@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "floating_melon_jam": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:misc/floating_melon_jam"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "miraculousori:float_melon_pie_from_floating_melon_jam"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "floating_melon_jam"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "miraculousori:float_melon_pie_from_floating_melon_jam"
+    ]
+  }
+}

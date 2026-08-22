@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "miraculousori:misc/sugar_cube"
+    },
+    {
+      "item": "miraculousori:misc/cocoa_butter_mold"
+    },
+    {
+      "item": "miraculousori:misc/cocoa_butter_mold"
+    },
+    {
+      "item": "miraculousori:misc/cocoa_butter_mold"
+    },
+    {
+      "item": "miraculousori:misc/cocoa_butter_mold"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "miraculousori:misc/white_chocolate_filled_mold"
+  }
+}

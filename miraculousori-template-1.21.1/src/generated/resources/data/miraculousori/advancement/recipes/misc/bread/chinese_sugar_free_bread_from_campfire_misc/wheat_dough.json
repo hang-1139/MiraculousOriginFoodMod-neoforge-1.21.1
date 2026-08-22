@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_misc/wheat_dough": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:misc/wheat_dough"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "miraculousori:bread/chinese_sugar_free_bread_from_campfire_misc/wheat_dough"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_misc/wheat_dough"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "miraculousori:bread/chinese_sugar_free_bread_from_campfire_misc/wheat_dough"
+    ]
+  }
+}

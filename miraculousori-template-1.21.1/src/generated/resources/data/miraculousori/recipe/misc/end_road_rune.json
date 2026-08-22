@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:dragon_breath"
+    },
+    "a": {
+      "item": "minecraft:dragon_head"
+    },
+    "e": {
+      "item": "miraculousori:clay/ender_cooked_clay_cake"
+    },
+    "l": {
+      "item": "miraculousori:plant/leaping_fruit"
+    },
+    "t": {
+      "item": "minecraft:totem_of_undying"
+    }
+  },
+  "pattern": [
+    "#a#",
+    "ete",
+    "l#l"
+  ],
+  "result": {
+    "count": 1,
+    "id": "miraculousori:misc/end_road_rune"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "miraculousori:end_melon",
+  "criteria": {
+    "reversed_gravity_height": {
+      "conditions": {
+        "effect": "miraculousori:reversed_gravity",
+        "height": 800
+      },
+      "trigger": "miraculousori:reversed_gravity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.miraculousori.earth_cannon.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "miraculousori:pie/floating_melon_pie"
+    },
+    "title": {
+      "translate": "advancements.miraculousori.earth_cannon.title"
+    }
+  },
+  "requirements": [
+    [
+      "reversed_gravity_height"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "miraculousori:food_question",
+  "criteria": {
+    "has_bread": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:bread/very_sweet_bread"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.miraculousori.more_honey.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "miraculousori:bread/very_sweet_bread"
+    },
+    "title": {
+      "translate": "advancements.miraculousori.more_honey.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_bread"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

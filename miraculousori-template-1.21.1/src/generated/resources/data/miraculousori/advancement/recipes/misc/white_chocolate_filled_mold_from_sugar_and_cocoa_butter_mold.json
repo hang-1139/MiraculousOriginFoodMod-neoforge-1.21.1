@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cocoa_butter_mold": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:misc/cocoa_butter_mold"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "miraculousori:white_chocolate_filled_mold_from_sugar_and_cocoa_butter_mold"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cocoa_butter_mold"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "miraculousori:white_chocolate_filled_mold_from_sugar_and_cocoa_butter_mold"
+    ]
+  }
+}

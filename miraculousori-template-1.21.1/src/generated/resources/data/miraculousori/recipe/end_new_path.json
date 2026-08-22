@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "miraculousori:god/ending_speech"
+  },
+  "base": {
+    "item": "miraculousori:misc/end_road_rune"
+  },
+  "result": {
+    "count": 1,
+    "id": "miraculousori:god/end_new_path"
+  },
+  "template": {
+    "item": "miraculousori:misc/divine_upgrade_template"
+  }
+}

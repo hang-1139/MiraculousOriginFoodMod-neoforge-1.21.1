@@ -1,0 +1,17 @@
+{
+  "type": "miraculousori:mill",
+  "experience": 4.0,
+  "food_cost": 1,
+  "grinding_time": 100,
+  "group": "salt",
+  "ingredient": {
+    "item": "miraculousori:misc/crushed_salt"
+  },
+  "ingredient_count": 1,
+  "outputs": [
+    {
+      "count": 2,
+      "id": "miraculousori:misc/salt"
+    }
+  ]
+}

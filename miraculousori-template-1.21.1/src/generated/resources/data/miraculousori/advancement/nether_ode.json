@@ -1,0 +1,33 @@
+{
+  "parent": "miraculousori:nether_curse",
+  "criteria": {
+    "has_ode": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:god/hunger_curse_ode"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.miraculousori.nether_ode.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "miraculousori:god/hunger_curse_ode"
+    },
+    "title": {
+      "translate": "advancements.miraculousori.nether_ode.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_ode"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

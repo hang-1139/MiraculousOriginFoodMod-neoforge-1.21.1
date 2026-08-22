@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_misc/sugar_cube": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:misc/sugar_cube"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "miraculousori:misc/caramel_from_smoking_misc/sugar_cube"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_misc/sugar_cube"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "miraculousori:misc/caramel_from_smoking_misc/sugar_cube"
+    ]
+  }
+}

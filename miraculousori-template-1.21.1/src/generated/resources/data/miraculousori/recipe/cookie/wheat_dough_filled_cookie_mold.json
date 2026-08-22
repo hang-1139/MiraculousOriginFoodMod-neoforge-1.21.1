@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "miraculousori:cookie/cookie_dough"
+    },
+    {
+      "item": "miraculousori:cookie/cookie_mold"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "miraculousori:cookie/wheat_dough_filled_cookie_mold"
+  }
+}

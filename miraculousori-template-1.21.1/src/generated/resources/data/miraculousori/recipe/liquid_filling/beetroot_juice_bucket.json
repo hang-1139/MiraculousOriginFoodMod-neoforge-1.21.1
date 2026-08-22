@@ -1,0 +1,12 @@
+{
+  "type": "miraculousori:liquid_filling",
+  "container": {
+    "item": "minecraft:bucket"
+  },
+  "fluid": "miraculousori:beetroot_juice",
+  "fluid_amount": 1000,
+  "result": {
+    "count": 1,
+    "id": "miraculousori:drink/beetroot_juice_bucket"
+  }
+}

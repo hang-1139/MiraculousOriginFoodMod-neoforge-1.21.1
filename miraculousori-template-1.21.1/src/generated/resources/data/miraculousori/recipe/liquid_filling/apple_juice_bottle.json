@@ -1,0 +1,12 @@
+{
+  "type": "miraculousori:liquid_filling",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "fluid": "miraculousori:apple_juice",
+  "fluid_amount": 250,
+  "result": {
+    "count": 1,
+    "id": "miraculousori:drink/apple_juice_bottle"
+  }
+}

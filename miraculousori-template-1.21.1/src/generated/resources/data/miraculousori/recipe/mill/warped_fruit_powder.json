@@ -1,0 +1,17 @@
+{
+  "type": "miraculousori:mill",
+  "experience": 1.0,
+  "food_cost": 1,
+  "grinding_time": 100,
+  "group": "warped_fruit_powder",
+  "ingredient": {
+    "item": "miraculousori:plant/warped_fruit"
+  },
+  "ingredient_count": 1,
+  "outputs": [
+    {
+      "count": 1,
+      "id": "miraculousori:misc/warped_fruit_powder"
+    }
+  ]
+}

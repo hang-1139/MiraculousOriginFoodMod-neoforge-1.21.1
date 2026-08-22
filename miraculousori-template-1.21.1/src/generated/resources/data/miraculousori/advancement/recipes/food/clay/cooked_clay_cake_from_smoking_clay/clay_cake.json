@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_clay/clay_cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:clay/clay_cake"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "miraculousori:clay/cooked_clay_cake_from_smoking_clay/clay_cake"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_clay/clay_cake"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "miraculousori:clay/cooked_clay_cake_from_smoking_clay/clay_cake"
+    ]
+  }
+}

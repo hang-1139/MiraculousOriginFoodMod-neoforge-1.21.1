@@ -1,0 +1,388 @@
+{
+  "variants": {
+    "below_air=false,below_head=false,berries=false,bottom=false,head_type=bottom_no_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_normal"
+    },
+    "below_air=false,below_head=false,berries=false,bottom=false,head_type=bottom_no_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=false,berries=false,bottom=false,head_type=bottom_with_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_normal"
+    },
+    "below_air=false,below_head=false,berries=false,bottom=false,head_type=bottom_with_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=false,berries=false,bottom=false,head_type=middle,top=false": {
+      "model": "miraculousori:plant/warped_vines_normal"
+    },
+    "below_air=false,below_head=false,berries=false,bottom=false,head_type=middle,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=false,berries=false,bottom=false,head_type=top,top=false": {
+      "model": "miraculousori:plant/warped_vines_normal"
+    },
+    "below_air=false,below_head=false,berries=false,bottom=false,head_type=top,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=false,berries=false,bottom=true,head_type=bottom_no_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_bottom_connection"
+    },
+    "below_air=false,below_head=false,berries=false,bottom=true,head_type=bottom_no_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=false,berries=false,bottom=true,head_type=bottom_with_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_bottom_connection"
+    },
+    "below_air=false,below_head=false,berries=false,bottom=true,head_type=bottom_with_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=false,berries=false,bottom=true,head_type=middle,top=false": {
+      "model": "miraculousori:plant/warped_vines_bottom_connection"
+    },
+    "below_air=false,below_head=false,berries=false,bottom=true,head_type=middle,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=false,berries=false,bottom=true,head_type=top,top=false": {
+      "model": "miraculousori:plant/warped_vines_bottom_connection"
+    },
+    "below_air=false,below_head=false,berries=false,bottom=true,head_type=top,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=false,berries=true,bottom=false,head_type=bottom_no_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_berries"
+    },
+    "below_air=false,below_head=false,berries=true,bottom=false,head_type=bottom_no_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=false,berries=true,bottom=false,head_type=bottom_with_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_berries"
+    },
+    "below_air=false,below_head=false,berries=true,bottom=false,head_type=bottom_with_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=false,berries=true,bottom=false,head_type=middle,top=false": {
+      "model": "miraculousori:plant/warped_vines_berries"
+    },
+    "below_air=false,below_head=false,berries=true,bottom=false,head_type=middle,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=false,berries=true,bottom=false,head_type=top,top=false": {
+      "model": "miraculousori:plant/warped_vines_berries"
+    },
+    "below_air=false,below_head=false,berries=true,bottom=false,head_type=top,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=false,berries=true,bottom=true,head_type=bottom_no_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_bottom_connection"
+    },
+    "below_air=false,below_head=false,berries=true,bottom=true,head_type=bottom_no_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=false,berries=true,bottom=true,head_type=bottom_with_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_bottom_connection"
+    },
+    "below_air=false,below_head=false,berries=true,bottom=true,head_type=bottom_with_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=false,berries=true,bottom=true,head_type=middle,top=false": {
+      "model": "miraculousori:plant/warped_vines_bottom_connection"
+    },
+    "below_air=false,below_head=false,berries=true,bottom=true,head_type=middle,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=false,berries=true,bottom=true,head_type=top,top=false": {
+      "model": "miraculousori:plant/warped_vines_bottom_connection"
+    },
+    "below_air=false,below_head=false,berries=true,bottom=true,head_type=top,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=true,berries=false,bottom=false,head_type=bottom_no_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_normal"
+    },
+    "below_air=false,below_head=true,berries=false,bottom=false,head_type=bottom_no_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=true,berries=false,bottom=false,head_type=bottom_with_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_normal"
+    },
+    "below_air=false,below_head=true,berries=false,bottom=false,head_type=bottom_with_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=true,berries=false,bottom=false,head_type=middle,top=false": {
+      "model": "miraculousori:plant/warped_vines_normal"
+    },
+    "below_air=false,below_head=true,berries=false,bottom=false,head_type=middle,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=true,berries=false,bottom=false,head_type=top,top=false": {
+      "model": "miraculousori:plant/warped_vines_normal"
+    },
+    "below_air=false,below_head=true,berries=false,bottom=false,head_type=top,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=true,berries=false,bottom=true,head_type=bottom_no_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_normal"
+    },
+    "below_air=false,below_head=true,berries=false,bottom=true,head_type=bottom_no_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=true,berries=false,bottom=true,head_type=bottom_with_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_normal"
+    },
+    "below_air=false,below_head=true,berries=false,bottom=true,head_type=bottom_with_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=true,berries=false,bottom=true,head_type=middle,top=false": {
+      "model": "miraculousori:plant/warped_vines_normal"
+    },
+    "below_air=false,below_head=true,berries=false,bottom=true,head_type=middle,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=true,berries=false,bottom=true,head_type=top,top=false": {
+      "model": "miraculousori:plant/warped_vines_normal"
+    },
+    "below_air=false,below_head=true,berries=false,bottom=true,head_type=top,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=true,berries=true,bottom=false,head_type=bottom_no_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_berries"
+    },
+    "below_air=false,below_head=true,berries=true,bottom=false,head_type=bottom_no_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=true,berries=true,bottom=false,head_type=bottom_with_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_berries"
+    },
+    "below_air=false,below_head=true,berries=true,bottom=false,head_type=bottom_with_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=true,berries=true,bottom=false,head_type=middle,top=false": {
+      "model": "miraculousori:plant/warped_vines_berries"
+    },
+    "below_air=false,below_head=true,berries=true,bottom=false,head_type=middle,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=true,berries=true,bottom=false,head_type=top,top=false": {
+      "model": "miraculousori:plant/warped_vines_berries"
+    },
+    "below_air=false,below_head=true,berries=true,bottom=false,head_type=top,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=true,berries=true,bottom=true,head_type=bottom_no_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_berries"
+    },
+    "below_air=false,below_head=true,berries=true,bottom=true,head_type=bottom_no_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=true,berries=true,bottom=true,head_type=bottom_with_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_berries"
+    },
+    "below_air=false,below_head=true,berries=true,bottom=true,head_type=bottom_with_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=true,berries=true,bottom=true,head_type=middle,top=false": {
+      "model": "miraculousori:plant/warped_vines_berries"
+    },
+    "below_air=false,below_head=true,berries=true,bottom=true,head_type=middle,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=false,below_head=true,berries=true,bottom=true,head_type=top,top=false": {
+      "model": "miraculousori:plant/warped_vines_berries"
+    },
+    "below_air=false,below_head=true,berries=true,bottom=true,head_type=top,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=false,berries=false,bottom=false,head_type=bottom_no_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_normal"
+    },
+    "below_air=true,below_head=false,berries=false,bottom=false,head_type=bottom_no_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=false,berries=false,bottom=false,head_type=bottom_with_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_normal"
+    },
+    "below_air=true,below_head=false,berries=false,bottom=false,head_type=bottom_with_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=false,berries=false,bottom=false,head_type=middle,top=false": {
+      "model": "miraculousori:plant/warped_vines_normal"
+    },
+    "below_air=true,below_head=false,berries=false,bottom=false,head_type=middle,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=false,berries=false,bottom=false,head_type=top,top=false": {
+      "model": "miraculousori:plant/warped_vines_normal"
+    },
+    "below_air=true,below_head=false,berries=false,bottom=false,head_type=top,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=false,berries=false,bottom=true,head_type=bottom_no_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_bottom"
+    },
+    "below_air=true,below_head=false,berries=false,bottom=true,head_type=bottom_no_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=false,berries=false,bottom=true,head_type=bottom_with_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_bottom"
+    },
+    "below_air=true,below_head=false,berries=false,bottom=true,head_type=bottom_with_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=false,berries=false,bottom=true,head_type=middle,top=false": {
+      "model": "miraculousori:plant/warped_vines_bottom"
+    },
+    "below_air=true,below_head=false,berries=false,bottom=true,head_type=middle,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=false,berries=false,bottom=true,head_type=top,top=false": {
+      "model": "miraculousori:plant/warped_vines_bottom"
+    },
+    "below_air=true,below_head=false,berries=false,bottom=true,head_type=top,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=false,berries=true,bottom=false,head_type=bottom_no_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_berries"
+    },
+    "below_air=true,below_head=false,berries=true,bottom=false,head_type=bottom_no_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=false,berries=true,bottom=false,head_type=bottom_with_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_berries"
+    },
+    "below_air=true,below_head=false,berries=true,bottom=false,head_type=bottom_with_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=false,berries=true,bottom=false,head_type=middle,top=false": {
+      "model": "miraculousori:plant/warped_vines_berries"
+    },
+    "below_air=true,below_head=false,berries=true,bottom=false,head_type=middle,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=false,berries=true,bottom=false,head_type=top,top=false": {
+      "model": "miraculousori:plant/warped_vines_berries"
+    },
+    "below_air=true,below_head=false,berries=true,bottom=false,head_type=top,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=false,berries=true,bottom=true,head_type=bottom_no_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_bottom"
+    },
+    "below_air=true,below_head=false,berries=true,bottom=true,head_type=bottom_no_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=false,berries=true,bottom=true,head_type=bottom_with_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_bottom"
+    },
+    "below_air=true,below_head=false,berries=true,bottom=true,head_type=bottom_with_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=false,berries=true,bottom=true,head_type=middle,top=false": {
+      "model": "miraculousori:plant/warped_vines_bottom"
+    },
+    "below_air=true,below_head=false,berries=true,bottom=true,head_type=middle,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=false,berries=true,bottom=true,head_type=top,top=false": {
+      "model": "miraculousori:plant/warped_vines_bottom"
+    },
+    "below_air=true,below_head=false,berries=true,bottom=true,head_type=top,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=true,berries=false,bottom=false,head_type=bottom_no_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_normal"
+    },
+    "below_air=true,below_head=true,berries=false,bottom=false,head_type=bottom_no_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=true,berries=false,bottom=false,head_type=bottom_with_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_normal"
+    },
+    "below_air=true,below_head=true,berries=false,bottom=false,head_type=bottom_with_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=true,berries=false,bottom=false,head_type=middle,top=false": {
+      "model": "miraculousori:plant/warped_vines_normal"
+    },
+    "below_air=true,below_head=true,berries=false,bottom=false,head_type=middle,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=true,berries=false,bottom=false,head_type=top,top=false": {
+      "model": "miraculousori:plant/warped_vines_normal"
+    },
+    "below_air=true,below_head=true,berries=false,bottom=false,head_type=top,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=true,berries=false,bottom=true,head_type=bottom_no_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_bottom"
+    },
+    "below_air=true,below_head=true,berries=false,bottom=true,head_type=bottom_no_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=true,berries=false,bottom=true,head_type=bottom_with_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_bottom"
+    },
+    "below_air=true,below_head=true,berries=false,bottom=true,head_type=bottom_with_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=true,berries=false,bottom=true,head_type=middle,top=false": {
+      "model": "miraculousori:plant/warped_vines_bottom"
+    },
+    "below_air=true,below_head=true,berries=false,bottom=true,head_type=middle,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=true,berries=false,bottom=true,head_type=top,top=false": {
+      "model": "miraculousori:plant/warped_vines_bottom"
+    },
+    "below_air=true,below_head=true,berries=false,bottom=true,head_type=top,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=true,berries=true,bottom=false,head_type=bottom_no_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_berries"
+    },
+    "below_air=true,below_head=true,berries=true,bottom=false,head_type=bottom_no_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=true,berries=true,bottom=false,head_type=bottom_with_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_berries"
+    },
+    "below_air=true,below_head=true,berries=true,bottom=false,head_type=bottom_with_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=true,berries=true,bottom=false,head_type=middle,top=false": {
+      "model": "miraculousori:plant/warped_vines_berries"
+    },
+    "below_air=true,below_head=true,berries=true,bottom=false,head_type=middle,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=true,berries=true,bottom=false,head_type=top,top=false": {
+      "model": "miraculousori:plant/warped_vines_berries"
+    },
+    "below_air=true,below_head=true,berries=true,bottom=false,head_type=top,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=true,berries=true,bottom=true,head_type=bottom_no_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_bottom"
+    },
+    "below_air=true,below_head=true,berries=true,bottom=true,head_type=bottom_no_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=true,berries=true,bottom=true,head_type=bottom_with_platform,top=false": {
+      "model": "miraculousori:plant/warped_vines_bottom"
+    },
+    "below_air=true,below_head=true,berries=true,bottom=true,head_type=bottom_with_platform,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=true,berries=true,bottom=true,head_type=middle,top=false": {
+      "model": "miraculousori:plant/warped_vines_bottom"
+    },
+    "below_air=true,below_head=true,berries=true,bottom=true,head_type=middle,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    },
+    "below_air=true,below_head=true,berries=true,bottom=true,head_type=top,top=false": {
+      "model": "miraculousori:plant/warped_vines_bottom"
+    },
+    "below_air=true,below_head=true,berries=true,bottom=true,head_type=top,top=true": {
+      "model": "miraculousori:plant/warped_vines_connection"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cookie_mold": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:cookie/cookie_mold"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "miraculousori:cookie/wheat_dough_filled_cookie_mold"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cookie_mold"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "miraculousori:cookie/wheat_dough_filled_cookie_mold"
+    ]
+  }
+}

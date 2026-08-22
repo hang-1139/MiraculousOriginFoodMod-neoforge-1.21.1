@@ -1,0 +1,31 @@
+{
+  "parent": "miraculousori:it_flew_away",
+  "criteria": {
+    "eat_leaping_fruit": {
+      "conditions": {
+        "item": {
+          "items": "miraculousori:plant/leaping_fruit"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.miraculousori.end_jump.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "miraculousori:plant/leaping_fruit"
+    },
+    "title": {
+      "translate": "advancements.miraculousori.end_jump.title"
+    }
+  },
+  "requirements": [
+    [
+      "eat_leaping_fruit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

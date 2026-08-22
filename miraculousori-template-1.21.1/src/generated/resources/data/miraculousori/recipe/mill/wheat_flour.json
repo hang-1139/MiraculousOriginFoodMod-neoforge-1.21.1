@@ -1,0 +1,17 @@
+{
+  "type": "miraculousori:mill",
+  "experience": 4.0,
+  "food_cost": 2,
+  "grinding_time": 200,
+  "group": "wheat_flour",
+  "ingredient": {
+    "item": "minecraft:wheat"
+  },
+  "ingredient_count": 1,
+  "outputs": [
+    {
+      "count": 2,
+      "id": "miraculousori:misc/wheat_flour"
+    }
+  ]
+}

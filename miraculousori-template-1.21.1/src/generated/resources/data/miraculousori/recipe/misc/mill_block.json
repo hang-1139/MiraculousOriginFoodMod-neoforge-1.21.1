@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "minecraft:bucket"
+    },
+    "i": {
+      "item": "minecraft:iron_bars"
+    },
+    "m": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "s": {
+      "item": "minecraft:stone_slab"
+    }
+  },
+  "pattern": [
+    "sss",
+    "bib",
+    "mmm"
+  ],
+  "result": {
+    "count": 1,
+    "id": "miraculousori:misc/mill_block"
+  }
+}

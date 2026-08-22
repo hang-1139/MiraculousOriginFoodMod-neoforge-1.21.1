@@ -1,0 +1,77 @@
+{
+  "parent": "miraculousori:root",
+  "criteria": {
+    "has_cooked_cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:clay/cooked_clay_cake"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ender_cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:clay/ender_cooked_clay_cake"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_nether_cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:clay/nether_clay_cake"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sweet_cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:clay/sweet_cooked_clay_cake"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_veggie_cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:clay/vegetable_cooked_clay_cake"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.miraculousori.food_question.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "miraculousori:clay/cooked_clay_cake"
+    },
+    "title": {
+      "translate": "advancements.miraculousori.food_question.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_veggie_cake",
+      "has_sweet_cake",
+      "has_cooked_cake",
+      "has_ender_cake",
+      "has_nether_cake"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

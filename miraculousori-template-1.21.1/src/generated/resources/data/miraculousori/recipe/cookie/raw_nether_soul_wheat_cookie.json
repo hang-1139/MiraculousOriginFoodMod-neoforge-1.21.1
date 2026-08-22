@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "miraculousori:cookie/nether_soul_wheat_cookie_mold"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "miraculousori:cookie/raw_nether_soul_wheat_cookie"
+  }
+}

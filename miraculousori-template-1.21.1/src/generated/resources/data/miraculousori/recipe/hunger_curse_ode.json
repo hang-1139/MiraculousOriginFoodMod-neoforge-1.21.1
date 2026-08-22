@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "miraculousori:god/hunger_curse_punishment"
+  },
+  "base": {
+    "item": "miraculousori:misc/hunger_totem"
+  },
+  "result": {
+    "count": 1,
+    "id": "miraculousori:god/hunger_curse_ode"
+  },
+  "template": {
+    "item": "miraculousori:misc/divine_upgrade_template"
+  }
+}

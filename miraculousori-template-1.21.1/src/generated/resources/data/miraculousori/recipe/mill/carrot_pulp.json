@@ -1,0 +1,19 @@
+{
+  "type": "miraculousori:mill",
+  "experience": 4.0,
+  "food_cost": 2,
+  "grinding_time": 200,
+  "group": "carrot_pulp",
+  "ingredient": {
+    "item": "minecraft:carrot"
+  },
+  "ingredient_count": 1,
+  "liquid_amount": 250,
+  "liquid_output": "miraculousori:carrot_juice",
+  "outputs": [
+    {
+      "count": 1,
+      "id": "miraculousori:misc/carrot_pulp"
+    }
+  ]
+}

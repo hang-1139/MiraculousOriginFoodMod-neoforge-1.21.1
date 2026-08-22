@@ -1,0 +1,32 @@
+{
+  "parent": "miraculousori:nether_wheat",
+  "criteria": {
+    "eat_cookie": {
+      "conditions": {
+        "item": {
+          "items": "miraculousori:cookie/nether_soul_wheat_cookie"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.miraculousori.did_i_really_eat.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "miraculousori:cookie/nether_soul_wheat_cookie"
+    },
+    "title": {
+      "translate": "advancements.miraculousori.did_i_really_eat.title"
+    }
+  },
+  "requirements": [
+    [
+      "eat_cookie"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

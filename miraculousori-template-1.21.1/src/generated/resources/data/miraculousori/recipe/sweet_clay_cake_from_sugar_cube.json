@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "miraculousori:clay/wet_clay_ball"
+    },
+    {
+      "item": "miraculousori:misc/sugar_cube"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "miraculousori:clay/sweet_clay_cake"
+  }
+}

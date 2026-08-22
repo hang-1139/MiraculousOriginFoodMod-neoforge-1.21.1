@@ -1,0 +1,44 @@
+{
+  "parent": "miraculousori:root",
+  "criteria": {
+    "has_crimson_fruit": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:plant/crimson_fruit"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_warped_fruit": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:plant/warped_fruit"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.miraculousori.nether_root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "miraculousori:plant/crimson_fruit"
+    },
+    "title": {
+      "translate": "advancements.miraculousori.nether_root.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_crimson_fruit",
+      "has_warped_fruit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

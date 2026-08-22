@@ -1,0 +1,40 @@
+{
+  "values": {
+    "miraculousori:misc/apple_pulp": {
+      "chance": 0.65
+    },
+    "miraculousori:misc/beetroot_pulp": {
+      "chance": 0.65
+    },
+    "miraculousori:misc/carrot_pulp": {
+      "chance": 0.65
+    },
+    "miraculousori:misc/cocoa_powder": {
+      "chance": 0.3
+    },
+    "miraculousori:misc/crimson_fruit_powder": {
+      "chance": 0.3
+    },
+    "miraculousori:misc/glow_berry_pulp": {
+      "chance": 0.65
+    },
+    "miraculousori:misc/sugarcane_pulp": {
+      "chance": 0.65
+    },
+    "miraculousori:misc/sweet_berry_pulp": {
+      "chance": 0.65
+    },
+    "miraculousori:misc/warped_fruit_powder": {
+      "chance": 0.3
+    },
+    "miraculousori:misc/watermelon_pulp": {
+      "chance": 0.65
+    },
+    "miraculousori:plant/crimson_fruit": {
+      "chance": 0.3
+    },
+    "miraculousori:plant/warped_fruit": {
+      "chance": 0.3
+    }
+  }
+}

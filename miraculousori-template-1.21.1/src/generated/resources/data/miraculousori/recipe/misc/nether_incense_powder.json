@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "miraculousori:misc/crimson_fruit_powder"
+    },
+    {
+      "item": "miraculousori:misc/warped_fruit_powder"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "miraculousori:misc/nether_incense_powder"
+  }
+}

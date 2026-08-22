@@ -1,0 +1,17 @@
+{
+  "type": "miraculousori:mill",
+  "experience": 4.0,
+  "food_cost": 1,
+  "grinding_time": 100,
+  "group": "mashed_potato",
+  "ingredient": {
+    "item": "minecraft:potato"
+  },
+  "ingredient_count": 1,
+  "outputs": [
+    {
+      "count": 1,
+      "id": "miraculousori:misc/mashed_potato"
+    }
+  ]
+}

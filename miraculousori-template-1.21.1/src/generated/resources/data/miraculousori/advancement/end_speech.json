@@ -1,0 +1,33 @@
+{
+  "parent": "miraculousori:it_flew_away",
+  "criteria": {
+    "has_speech": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:god/ending_speech"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.miraculousori.end_speech.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "miraculousori:god/ending_speech"
+    },
+    "title": {
+      "translate": "advancements.miraculousori.end_speech.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_speech"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

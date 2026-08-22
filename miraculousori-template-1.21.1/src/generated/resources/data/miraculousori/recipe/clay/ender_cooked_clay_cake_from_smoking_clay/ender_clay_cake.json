@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "group": "ender_cooked_clay_cake",
+  "ingredient": {
+    "item": "miraculousori:clay/ender_clay_cake"
+  },
+  "result": {
+    "count": 1,
+    "id": "miraculousori:clay/ender_cooked_clay_cake"
+  }
+}

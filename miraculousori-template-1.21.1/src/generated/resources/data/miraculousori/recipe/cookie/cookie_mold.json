@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "p": {
+      "item": "minecraft:iron_ingot"
+    },
+    "t": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "tpt"
+  ],
+  "result": {
+    "count": 1,
+    "id": "miraculousori:cookie/cookie_mold"
+  }
+}

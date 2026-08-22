@@ -1,0 +1,33 @@
+{
+  "parent": "miraculousori:end_speech",
+  "criteria": {
+    "has_end_new_path": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:god/end_new_path"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.miraculousori.end_journey.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "miraculousori:god/end_new_path"
+    },
+    "title": {
+      "translate": "advancements.miraculousori.end_journey.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_end_new_path"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 300,
+  "experience": 0.35,
+  "group": "caramel",
+  "ingredient": {
+    "item": "miraculousori:misc/sugar_cube"
+  },
+  "result": {
+    "count": 1,
+    "id": "miraculousori:misc/caramel"
+  }
+}

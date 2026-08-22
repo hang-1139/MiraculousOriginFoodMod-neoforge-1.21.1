@@ -1,0 +1,33 @@
+{
+  "parent": "miraculousori:food_question",
+  "criteria": {
+    "has_dough": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:cookie/cookie_dough"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.miraculousori.wheres_the_eggshell.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "miraculousori:cookie/cookie_dough"
+    },
+    "title": {
+      "translate": "advancements.miraculousori.wheres_the_eggshell.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_dough"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

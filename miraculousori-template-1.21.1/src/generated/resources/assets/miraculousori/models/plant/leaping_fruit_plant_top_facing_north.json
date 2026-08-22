@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:block/block",
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#tex_down"
+        },
+        "east": {
+          "texture": "#tex_east"
+        },
+        "north": {
+          "texture": "#tex_north"
+        },
+        "south": {
+          "texture": "#tex_south"
+        },
+        "up": {
+          "texture": "#tex_up"
+        },
+        "west": {
+          "texture": "#tex_west"
+        }
+      },
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ]
+    }
+  ],
+  "textures": {
+    "particle": "miraculousori:block/plant/side",
+    "tex_down": "miraculousori:block/plant/side",
+    "tex_east": "miraculousori:block/plant/side_",
+    "tex_north": "miraculousori:block/plant/top",
+    "tex_south": "miraculousori:block/plant/interlace",
+    "tex_up": "miraculousori:block/plant/side",
+    "tex_west": "miraculousori:block/plant/side_"
+  }
+}

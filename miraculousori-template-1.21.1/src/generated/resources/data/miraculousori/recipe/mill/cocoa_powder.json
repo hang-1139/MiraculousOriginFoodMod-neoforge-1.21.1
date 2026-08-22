@@ -1,0 +1,19 @@
+{
+  "type": "miraculousori:mill",
+  "experience": 0.2,
+  "food_cost": 1,
+  "grinding_time": 40,
+  "group": "cocoa_powder",
+  "ingredient": {
+    "item": "minecraft:cocoa_beans"
+  },
+  "ingredient_count": 1,
+  "liquid_amount": 50,
+  "liquid_output": "miraculousori:cocoa_butter",
+  "outputs": [
+    {
+      "count": 1,
+      "id": "miraculousori:misc/cocoa_powder"
+    }
+  ]
+}

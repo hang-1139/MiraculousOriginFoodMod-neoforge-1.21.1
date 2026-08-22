@@ -1,0 +1,12 @@
+{
+  "type": "miraculousori:liquid_filling",
+  "container": {
+    "item": "minecraft:bucket"
+  },
+  "fluid": "miraculousori:sweet_berry_juice",
+  "fluid_amount": 1000,
+  "result": {
+    "count": 1,
+    "id": "miraculousori:drink/sweet_berry_juice_bucket"
+  }
+}

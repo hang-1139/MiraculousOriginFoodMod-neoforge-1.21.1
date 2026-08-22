@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "miraculousori:clay/wet_clay_ball"
+    },
+    {
+      "item": "miraculousori:misc/blaze_incense_powder"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "miraculousori:clay/nether_clay_cake"
+  }
+}

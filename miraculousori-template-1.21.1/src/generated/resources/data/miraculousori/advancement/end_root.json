@@ -1,0 +1,33 @@
+{
+  "parent": "miraculousori:root",
+  "criteria": {
+    "has_seeds": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:plant/floating_melon_seeds"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.miraculousori.end_root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "miraculousori:plant/floating_melon_seeds"
+    },
+    "title": {
+      "translate": "advancements.miraculousori.end_root.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_seeds"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

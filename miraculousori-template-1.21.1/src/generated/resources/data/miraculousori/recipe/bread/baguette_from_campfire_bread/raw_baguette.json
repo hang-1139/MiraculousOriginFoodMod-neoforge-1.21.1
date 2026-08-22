@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "group": "baguette",
+  "ingredient": {
+    "item": "miraculousori:bread/raw_baguette"
+  },
+  "result": {
+    "count": 1,
+    "id": "miraculousori:bread/baguette"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "miraculousori:misc/mashed_potato"
+    },
+    {
+      "item": "miraculousori:misc/wheat_flour"
+    },
+    {
+      "item": "miraculousori:misc/salt"
+    },
+    {
+      "item": "miraculousori:misc/salt"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "miraculousori:bread/raw_potato_patty"
+  }
+}

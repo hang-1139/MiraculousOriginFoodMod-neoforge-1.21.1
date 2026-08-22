@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "miraculousori:misc/wheat_dough"
+    }
+  },
+  "pattern": [
+    "#  ",
+    " # ",
+    "  #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "miraculousori:bread/raw_baguette"
+  }
+}

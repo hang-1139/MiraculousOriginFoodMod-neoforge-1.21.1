@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "miraculousori:misc/floating_melon_jam"
+    },
+    {
+      "item": "miraculousori:misc/floating_melon_jam"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "miraculousori:plant/floating_melon"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "miraculousori:pie/floating_melon_pie"
+  }
+}

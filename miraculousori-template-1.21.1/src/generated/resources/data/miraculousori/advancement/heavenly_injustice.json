@@ -1,0 +1,31 @@
+{
+  "parent": "miraculousori:nether_ode",
+  "criteria": {
+    "holding_both": {
+      "conditions": {
+        "item1": "miraculousori:god/food_god_blessing_amulet",
+        "item2": "miraculousori:god/hunger_curse_ode"
+      },
+      "trigger": "miraculousori:holding_both"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.miraculousori.heavenly_injustice.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:lightning_rod"
+    },
+    "title": {
+      "translate": "advancements.miraculousori.heavenly_injustice.title"
+    }
+  },
+  "requirements": [
+    [
+      "holding_both"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

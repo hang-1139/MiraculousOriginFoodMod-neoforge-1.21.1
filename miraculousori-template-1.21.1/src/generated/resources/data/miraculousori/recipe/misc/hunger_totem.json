@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "miraculousori:cookie/nether_soul_wheat_cookie"
+    },
+    "n": {
+      "item": "miraculousori:clay/nether_clay_cake"
+    },
+    "t": {
+      "item": "minecraft:totem_of_undying"
+    }
+  },
+  "pattern": [
+    "#n#",
+    "ntn",
+    "#n#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "miraculousori:misc/hunger_totem"
+  }
+}

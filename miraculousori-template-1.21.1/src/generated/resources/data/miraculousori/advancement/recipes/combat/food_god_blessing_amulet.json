@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_divine_upgrade_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:misc/divine_upgrade_template"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "miraculousori:food_god_blessing_amulet"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_divine_upgrade_template"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "miraculousori:food_god_blessing_amulet"
+    ]
+  }
+}

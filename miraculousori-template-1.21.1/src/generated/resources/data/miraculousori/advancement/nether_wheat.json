@@ -1,0 +1,33 @@
+{
+  "parent": "miraculousori:nether_seed",
+  "criteria": {
+    "has_wheat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:plant/soul_wheat"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.miraculousori.nether_wheat.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "miraculousori:plant/soul_wheat"
+    },
+    "title": {
+      "translate": "advancements.miraculousori.nether_wheat.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_wheat"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

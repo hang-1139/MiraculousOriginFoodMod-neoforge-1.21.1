@@ -1,0 +1,33 @@
+{
+  "parent": "miraculousori:wheres_the_eggshell",
+  "criteria": {
+    "has_baguette": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:bread/baguette"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.miraculousori.what_a_fine_loaf.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "miraculousori:bread/baguette"
+    },
+    "title": {
+      "translate": "advancements.miraculousori.what_a_fine_loaf.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_baguette"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

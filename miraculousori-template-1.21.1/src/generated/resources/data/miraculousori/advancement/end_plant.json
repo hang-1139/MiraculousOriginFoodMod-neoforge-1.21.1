@@ -1,0 +1,26 @@
+{
+  "parent": "miraculousori:end_jump",
+  "criteria": {
+    "activate_plant": {
+      "trigger": "miraculousori:leaping_fruit_activate"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.miraculousori.end_plant.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "miraculousori:plant/leaping_fruit_plant_top"
+    },
+    "title": {
+      "translate": "advancements.miraculousori.end_plant.title"
+    }
+  },
+  "requirements": [
+    [
+      "activate_plant"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

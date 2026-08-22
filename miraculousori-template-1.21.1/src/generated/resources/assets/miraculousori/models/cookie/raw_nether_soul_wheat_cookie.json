@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "miraculousori:item/cookie/raw_nether_soul_wheat_cookie"
+  }
+}

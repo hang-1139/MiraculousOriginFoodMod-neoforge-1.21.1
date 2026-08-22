@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Client" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+    <module name="miraculousori-template-1_21_1.main" />
+    <option name="PROGRAM_PARAMETERS" value="&quot;@D:\\biancheng\\java\\mod\\Miraculous Origin Food Mod\\neoforge-1.21.1\\miraculousori-template-1.21.1\\build\\moddev\\clientRunProgramArgs.txt&quot;" />
+    <option name="VM_PARAMETERS" value="&quot;@D:\\biancheng\\java\\mod\\Miraculous Origin Food Mod\\neoforge-1.21.1\\miraculousori-template-1.21.1\\build\\moddev\\clientRunVmArgs.txt&quot; &quot;-Dfml.modFolders=miraculousori%%D:\\biancheng\\java\\mod\\Miraculous Origin Food Mod\\neoforge-1.21.1\\miraculousori-template-1.21.1\\build\\classes\\java\\main;miraculousori%%D:\\biancheng\\java\\mod\\Miraculous Origin Food Mod\\neoforge-1.21.1\\miraculousori-template-1.21.1\\build\\resources\\main&quot;" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/miraculousori-template-1.21.1/run" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

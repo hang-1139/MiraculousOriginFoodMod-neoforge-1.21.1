@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bread/raw_potato_patty": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:bread/raw_potato_patty"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "miraculousori:bread/cooked_potato_patty_from_campfire_bread/raw_potato_patty"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bread/raw_potato_patty"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "miraculousori:bread/cooked_potato_patty_from_campfire_bread/raw_potato_patty"
+    ]
+  }
+}

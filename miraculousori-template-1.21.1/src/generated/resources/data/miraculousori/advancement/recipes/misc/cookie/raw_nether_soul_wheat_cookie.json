@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nether_soul_wheat_dough": {
+      "conditions": {
+        "items": [
+          {
+            "items": "miraculousori:cookie/nether_soul_wheat_cookie_mold"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "miraculousori:cookie/raw_nether_soul_wheat_cookie"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_nether_soul_wheat_dough"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "miraculousori:cookie/raw_nether_soul_wheat_cookie"
+    ]
+  }
+}

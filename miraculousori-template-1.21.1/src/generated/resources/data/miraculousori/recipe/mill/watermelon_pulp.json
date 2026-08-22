@@ -1,0 +1,19 @@
+{
+  "type": "miraculousori:mill",
+  "experience": 2.0,
+  "food_cost": 1,
+  "grinding_time": 100,
+  "group": "watermelon_pulp",
+  "ingredient": {
+    "item": "minecraft:melon_slice"
+  },
+  "ingredient_count": 1,
+  "liquid_amount": 125,
+  "liquid_output": "miraculousori:watermelon_juice",
+  "outputs": [
+    {
+      "count": 1,
+      "id": "miraculousori:misc/watermelon_pulp"
+    }
+  ]
+}
