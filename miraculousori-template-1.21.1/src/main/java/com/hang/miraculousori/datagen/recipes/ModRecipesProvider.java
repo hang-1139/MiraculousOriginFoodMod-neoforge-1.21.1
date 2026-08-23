@@ -106,11 +106,11 @@ public class ModRecipesProvider extends RecipeProvider implements IConditionBuil
                 .unlockedBy("has_wet_clay_ball", has(ModItems.WET_CLAY_BALL.get()))
                 .save(recipeOutput, MiraculousOriginFoodMod.MODID + ":sweet_clay_cake_from_sugar_cube");
 
-        // 9. ENDER_CLAY_CAKE = 湿润的粘土球 + 紫颂果 + 末影珍珠
+        // 9. ENDER_CLAY_CAKE = 湿润的粘土球 + 紫颂果 + 末影眼
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ENDER_CLAY_CAKE.get())
                 .requires(ModItems.WET_CLAY_BALL.get())
                 .requires(Items.CHORUS_FRUIT)
-                .requires(Items.ENDER_PEARL)
+                .requires(Items.ENDER_EYE)
                 .unlockedBy("has_wet_clay_ball", has(ModItems.WET_CLAY_BALL.get()))
                 .save(recipeOutput);
 
@@ -293,7 +293,7 @@ public class ModRecipesProvider extends RecipeProvider implements IConditionBuil
                 .unlockedBy("has_glass", has(Items.GLASS))
                 .save(recipeOutput);
 
-        // 7. 有序配方：
+        // 7. 有序配方： 端路符文
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.END_ROAD_RUNE, 1)
                 .pattern("#a#")
                 .pattern("ete")

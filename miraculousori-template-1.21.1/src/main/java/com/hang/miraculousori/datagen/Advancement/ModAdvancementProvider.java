@@ -111,7 +111,7 @@ public class ModAdvancementProvider extends AdvancementProvider {
                     .display(ModItems.GOD_GAZE.get(),
                             Component.translatable("advancements.miraculousori.god_gaze.title"),
                             Component.translatable("advancements.miraculousori.god_gaze.description"),
-                            null, AdvancementType.TASK, true, true, false)
+                            null, AdvancementType.CHALLENGE, true, true, false)
                     .addCriterion("has_god_gaze", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.GOD_GAZE.get()))
                     .build(ResourceLocation.fromNamespaceAndPath(MiraculousOriginFoodMod.MODID, "god_gaze"));
 
@@ -121,7 +121,7 @@ public class ModAdvancementProvider extends AdvancementProvider {
                     .display(ModItems.FOOD_GOD_BLESSING_AMULET.get(),
                             Component.translatable("advancements.miraculousori.blessing_amulet.title"),
                             Component.translatable("advancements.miraculousori.blessing_amulet.description"),
-                            null, AdvancementType.TASK, true, true, false)
+                            null, AdvancementType.CHALLENGE, true, true, false)
                     .addCriterion("has_blessing", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.FOOD_GOD_BLESSING_AMULET.get()))
                     .build(ResourceLocation.fromNamespaceAndPath(MiraculousOriginFoodMod.MODID, "blessing_amulet"));
 
@@ -197,7 +197,7 @@ public class ModAdvancementProvider extends AdvancementProvider {
                     .display(ModItems.NETHER_SOUL_WHEAT_COOKIE.get(),
                             Component.translatable("advancements.miraculousori.did_i_really_eat.title"),
                             Component.translatable("advancements.miraculousori.did_i_really_eat.description"),
-                            null, AdvancementType.CHALLENGE, true, true, false)
+                            null, AdvancementType.TASK, true, true, false)
                     .addCriterion("eat_cookie", ConsumeItemTrigger.TriggerInstance.usedItem(ModItems.NETHER_SOUL_WHEAT_COOKIE.get()))
                     .build(ResourceLocation.fromNamespaceAndPath(MiraculousOriginFoodMod.MODID, "did_i_really_eat"));
 
@@ -207,7 +207,7 @@ public class ModAdvancementProvider extends AdvancementProvider {
                     .display(ModItems.HUNGER_CURSE_PUNISHMENT.get(),
                             Component.translatable("advancements.miraculousori.nether_curse.title"),
                             Component.translatable("advancements.miraculousori.nether_curse.description"),
-                            null, AdvancementType.TASK, true, true, false)
+                            null, AdvancementType.CHALLENGE, true, true, false)
                     .addCriterion("has_curse_punishment", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.HUNGER_CURSE_PUNISHMENT.get()))
                     .build(ResourceLocation.fromNamespaceAndPath(MiraculousOriginFoodMod.MODID, "nether_curse"));
 
@@ -217,7 +217,7 @@ public class ModAdvancementProvider extends AdvancementProvider {
                     .display(ModItems.HUNGER_CURSE_ODE.get(),
                             Component.translatable("advancements.miraculousori.nether_ode.title"),
                             Component.translatable("advancements.miraculousori.nether_ode.description"),
-                            null, AdvancementType.TASK, true, true, false)
+                            null, AdvancementType.CHALLENGE, true, true, false)
                     .addCriterion("has_ode", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.HUNGER_CURSE_ODE.get()))
                     .build(ResourceLocation.fromNamespaceAndPath(MiraculousOriginFoodMod.MODID, "nether_ode"));
 
@@ -305,7 +305,7 @@ public class ModAdvancementProvider extends AdvancementProvider {
                     .display(ModItems.ENDING_SPEECH.get(),
                             Component.translatable("advancements.miraculousori.end_speech.title"),
                             Component.translatable("advancements.miraculousori.end_speech.description"),
-                            null, AdvancementType.TASK, true, true, false)
+                            null, AdvancementType.CHALLENGE, true, true, false)
                     .addCriterion("has_speech", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.ENDING_SPEECH.get()))
                     .build(ResourceLocation.fromNamespaceAndPath(MiraculousOriginFoodMod.MODID, "end_speech"));
 
@@ -315,7 +315,7 @@ public class ModAdvancementProvider extends AdvancementProvider {
                     .display(ModItems.END_NEW_PATH.get(),
                             Component.translatable("advancements.miraculousori.end_journey.title"),
                             Component.translatable("advancements.miraculousori.end_journey.description"),
-                            null, AdvancementType.TASK, true, true, false)
+                            null, AdvancementType.CHALLENGE, true, true, false)
                     .addCriterion("has_end_new_path", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.END_NEW_PATH.get()))
                     .build(ResourceLocation.fromNamespaceAndPath(MiraculousOriginFoodMod.MODID, "end_journey"));
 
