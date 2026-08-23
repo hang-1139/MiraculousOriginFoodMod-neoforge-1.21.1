@@ -16,6 +16,7 @@
     "description": {
       "translate": "advancements.miraculousori.blessing_amulet.description"
     },
+    "frame": "challenge",
     "icon": {
       "count": 1,
       "id": "miraculousori:god/food_god_blessing_amulet"

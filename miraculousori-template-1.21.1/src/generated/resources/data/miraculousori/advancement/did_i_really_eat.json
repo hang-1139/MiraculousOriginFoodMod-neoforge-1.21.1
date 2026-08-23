@@ -14,7 +14,6 @@
     "description": {
       "translate": "advancements.miraculousori.did_i_really_eat.description"
     },
-    "frame": "challenge",
     "icon": {
       "count": 1,
       "id": "miraculousori:cookie/nether_soul_wheat_cookie"

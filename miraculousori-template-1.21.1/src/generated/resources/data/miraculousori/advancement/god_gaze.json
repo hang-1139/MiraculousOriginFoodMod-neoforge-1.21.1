@@ -16,6 +16,7 @@
     "description": {
       "translate": "advancements.miraculousori.god_gaze.description"
     },
+    "frame": "challenge",
     "icon": {
       "count": 1,
       "id": "miraculousori:god/god_gaze"

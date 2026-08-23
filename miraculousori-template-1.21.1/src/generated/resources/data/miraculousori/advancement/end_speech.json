@@ -16,6 +16,7 @@
     "description": {
       "translate": "advancements.miraculousori.end_speech.description"
     },
+    "frame": "challenge",
     "icon": {
       "count": 1,
       "id": "miraculousori:god/ending_speech"

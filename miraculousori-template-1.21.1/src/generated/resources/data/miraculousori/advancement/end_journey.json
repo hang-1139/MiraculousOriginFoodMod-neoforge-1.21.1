@@ -16,6 +16,7 @@
     "description": {
       "translate": "advancements.miraculousori.end_journey.description"
     },
+    "frame": "challenge",
     "icon": {
       "count": 1,
       "id": "miraculousori:god/end_new_path"

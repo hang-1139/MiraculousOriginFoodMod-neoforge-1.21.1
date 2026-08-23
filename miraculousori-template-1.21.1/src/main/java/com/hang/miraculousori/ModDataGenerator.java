@@ -2,8 +2,7 @@ package com.hang.miraculousori;
 
 import com.hang.miraculousori.datagen.Advancement.ModAdvancementProvider;
 import com.hang.miraculousori.datagen.data_maps.ModDataMapProvider;
-import com.hang.miraculousori.datagen.lang.ModEnUsLangProvider;
-import com.hang.miraculousori.datagen.lang.ModZhCnLangProvider;
+import com.hang.miraculousori.datagen.lang.*;
 import com.hang.miraculousori.datagen.loot.ModBlockLootTablesProvider;
 import com.hang.miraculousori.datagen.models.ModBlockStatesProvider;
 import com.hang.miraculousori.datagen.models.ModItemModelsProvider;
@@ -48,8 +47,12 @@ public class ModDataGenerator {
 
         generator.addProvider(event.includeServer(), new ModItemModelsProvider(packOutput, existingFileHelper));
         generator.addProvider(event.includeServer(), new ModBlockStatesProvider(packOutput, existingFileHelper));
+
         generator.addProvider(event.includeServer(), new ModEnUsLangProvider(packOutput));
         generator.addProvider(event.includeServer(), new ModZhCnLangProvider(packOutput));
+        generator.addProvider(event.includeServer(), new ModZhTwLangProvider(packOutput));
+        generator.addProvider(event.includeServer(), new ModLzhLangProvider(packOutput));
+        generator.addProvider(event.includeServer(), new ModZhHkLangProvider(packOutput));
 
         generator.addProvider(event.includeServer(), new ModDataMapProvider(packOutput, lookupProvider));
 

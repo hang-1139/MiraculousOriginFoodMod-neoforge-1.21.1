@@ -16,6 +16,7 @@
     "description": {
       "translate": "advancements.miraculousori.nether_ode.description"
     },
+    "frame": "challenge",
     "icon": {
       "count": 1,
       "id": "miraculousori:god/hunger_curse_ode"
