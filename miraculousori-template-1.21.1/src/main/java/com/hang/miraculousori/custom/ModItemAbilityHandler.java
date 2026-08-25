@@ -126,14 +126,14 @@ public class ModItemAbilityHandler {
             }
         }
 
-        // 末途符文（无所有者限制）
+        // 末途符文
         if (isHolding(mainHand, offHand, ModItems.END_ROAD_RUNE.get())) {
             if (player.tickCount % (30 * TICKS_PER_SECOND) == 0) {
                 player.addEffect(new MobEffectInstance(ModMobEffects.TELEPORT_ON_DAMAGE, 10 * TICKS_PER_SECOND, 0, false, true));
             }
         }
 
-        // 终幕新途（必须为自己所有）
+        // 终幕新途
         if (isHoldingOwned(mainHand, offHand, player, ModItems.END_NEW_PATH.get())) {
             int grantTimer = END_NEW_PATH_GRANT_TIMER.getOrDefault(uuid, 0);
             if (grantTimer <= 0) {
@@ -154,12 +154,10 @@ public class ModItemAbilityHandler {
             END_NEW_PATH_BLINK_COOLDOWN.remove(uuid);
         }
 
-        // 组合清除效果
         if (holdingBlessing && holdingCurse) {
             player.removeAllEffects();
         }
 
-        // 组合雷暴
         handleCurseAndBlessingCombo(player, mainHand, offHand);
     }
 
@@ -314,7 +312,7 @@ public class ModItemAbilityHandler {
             }
         }
 
-        // 终幕新途：玩家受伤害（必须为自己所有）
+        // 终幕新途：玩家受伤害
         if (victim instanceof Player playerVictim && !playerVictim.level().isClientSide) {
             if (isHoldingOwned(playerVictim.getMainHandItem(), playerVictim.getOffhandItem(), playerVictim, ModItems.END_NEW_PATH.get())) {
                 UUID uuid = playerVictim.getUUID();
@@ -334,7 +332,7 @@ public class ModItemAbilityHandler {
             }
         }
 
-        // 终幕新途：玩家造成伤害 → 瞬移（必须为自己所有）
+        // 终幕新途：玩家造成伤害 → 瞬移
         if (attacker instanceof Player playerAttacker && !playerAttacker.level().isClientSide) {
             if (victim == playerAttacker) return;
             if (isHoldingOwned(playerAttacker.getMainHandItem(), playerAttacker.getOffhandItem(), playerAttacker, ModItems.END_NEW_PATH.get())) {
